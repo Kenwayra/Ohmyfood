@@ -9,15 +9,16 @@ Pour l'instant, 4 menus de restaurants sont disponibles sur le site.
 - Animations et transitions CSS (sans JavaScript)
 
 ## 🚀 Technologies utilisées
-- VS Code (Live Sass Compiler inclus)
+- VS Code
 - HTML
-- SCSS (SASS)
+- SCSS (SASS via Node.js)
 - Git/GitHub
 
 ## 📂 Structure du projet
 📂 Ohmyfood/
 ├── 📂 css/ 
 │ ├── 🎨 style.css
+│ ├── 🎨 style.css.map
 ├── 📂 data/  
 │ ├── 📄 Oh my food - Textes.txt
 ├── 📂 images/  
@@ -34,12 +35,23 @@ Pour l'instant, 4 menus de restaurants sont disponibles sur le site.
 │ ├── 📜 menu2.html
 │ ├── 📜 menu3.html
 │ ├── 📜 menu4.html 
-├── 📂 scss/ 
-│ ├── 🎭 _animations.scss 
-│ ├── 🦶 _footer.scss 
-│ ├── 🎩 _header.scss 
-│ ├── 🎨 _variables.scss   
-│ ├── 🖌️ style.scss 
+├── 📂 scss/  
+│   ├── 🎭 _animations.scss    // Animations et transitions  
+│   ├── 📝 _base.scss          // Styles de base (typographie, éléments généraux)  
+│   ├── 🧩 _components.scss    // Composants réutilisables (boutons, cartes...)  
+│   ├── 📐 _layout.scss        // Disposition générale (header, footer...)  
+│   ├── 📱 _media.scss         // Media queries pour le responsive  
+│   ├── 📄 _pages.scss         // Styles spécifiques aux pages (index, menus...)  
+│   ├── 🎨 _variables.scss     // Variables globales (couleurs, polices...)  
+│   ├── 🖌️ style.scss          // Fichier principal qui importe tout 
 ├── 🚫 .gitignore 
 ├── 🏠 index.html  
 ├── 📖 README.md
+
+N.B : Les fichiers CSS sont créés par Node.js
+
+### 🛠️ Dernières modifications
+- Création du header
+- Création de la page d'accueil // Première partie
+- Réorganisation des files SCSS
+- Création du bouton principal

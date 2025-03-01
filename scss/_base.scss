@@ -1,0 +1,16 @@
+@import 'variables';
+
+h {
+    &1, &2, &3, &4, &5, &6 {
+        font-family: Shrikhand;
+        font-weight: bold;
+    }
+}
+
+p {
+    font-family: Roboto;
+}
+
+body {
+    margin: 0;
+}
