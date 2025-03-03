@@ -8,3 +8,35 @@ $dark-grey: #393939;
 //for hover buttons
 $primary-light: #B380FF;
 $secondary-light: #FF9DEA;
+
+.location-box {
+    i {
+        &p {
+            color: $dark-grey;
+        }
+    }
+}
+
+.explore {
+    p {
+        margin: 2% 12%;
+        text-align: center;
+        font-weight: 100;
+        font-size: 15px;
+    }
+    strong {
+        font-size: 21px;
+        margin: 0;
+    }
+}
+
+.function-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.function-icon {
+   height: 45%;
+   margin-right: 4%;
+}

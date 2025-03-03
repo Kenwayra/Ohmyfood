@@ -21,10 +21,15 @@ Pour l'instant, 4 menus de restaurants sont disponibles sur le site.
 │   ├── 🎨 style.css.map  
 ├── 📂 data/  
 │   ├── 📄 Oh my food - Textes.txt  
-├── 📂 images/  
+├── 📂 images/ 
+│   ├── 📂 icons/  
+│   │   ├── 🔣 arrow_back.svg  
+│   │   ├── 🔣 format_list_bulleted.svg      // Icônes prises depuis Google fonts
+│   │   ├── 🔣 smartphone.svg  
+│   │   ├── 🔣 storefront.svg    
 │   ├── 📂 logo/  
-│   │   ├── 🔵 ohmyfood.png  
-│   │   ├── 🔵 ohmyfood@2x.svg  
+│   │   ├── 🏷️ ohmyfood.png  
+│   │   ├── 🏷️ ohmyfood@2x.svg  
 │   ├── 📂 restaurants/  
 │   │   ├── 🖼️ jay-wennington-N_Y88TWmGwA-unsplash.jpg  
 │   │   ├── 🖼️ louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg  
@@ -42,8 +47,8 @@ Pour l'instant, 4 menus de restaurants sont disponibles sur le site.
 │   ├── 📐 _layout.scss        // Disposition générale (header, footer...)  
 │   ├── 📱 _media.scss         // Media queries pour le responsive  
 │   ├── 📄 _pages.scss         // Styles spécifiques aux pages (index, menus...)  
-│   ├── 🎨 _variables.scss     //Variables globales (couleurs, polices...)  
-│   ├── 🖌️ style.scss          //Fichier principal qui importe tout  
+│   ├── 🎨 _variables.scss     // Variables globales (couleurs, polices...)  
+│   ├── 🖌️ style.scss          // Fichier principal qui importe tout  
 ├── 🚫 .gitignore  
 ├── 🏠 index.html  
 ├── 📖 README.md  
@@ -52,7 +57,13 @@ Pour l'instant, 4 menus de restaurants sont disponibles sur le site.
 N.B : Les fichiers CSS sont créés par Node.js après la compilation des fichiers SCSS.
 
 ### 🛠️ Dernières modifications
-- Création du header
-- Création de la page d'accueil  // Première partie
-- Réorganisation des files SCSS
-- Création du bouton principal
+- Peaufinement de la partie Header
+- Création & Finalisation de la partie "Fonctionnement"
+- Création de la partie "Restaurants"
+- Ajout du fichier "Icons" (certaines icônes n'étant pas disponible sur Font Awsome)
+
+### 🔮 À venir
+- Changements des icônes "format list" & "storefront" pour les icônes de Font Awsome
+- Finalisation de la partie "Restaurants"
+- Animations pour le bouton "Like"
+- Création & Finalisation de la partie Footer
