@@ -15,18 +15,18 @@ Pour l'instant, 4 menus de restaurants sont disponibles sur le site.
 - Git/GitHub
 
 ## 📂 Structure du projet
-📂 Ohmyfood/
+📂 Ohmyfood/  
 ├── 📂 css/  
 │   ├── 🎨 style.css  
 │   ├── 🎨 style.css.map  
 ├── 📂 data/  
 │   ├── 📄 Oh my food - Textes.txt  
-├── 📂 images/ 
+├── 📂 images/  
 │   ├── 📂 icons/  
 │   │   ├── 🔣 arrow_back.svg  
-│   │   ├── 🔣 format_list_bulleted.svg
+│   │   ├── 🔣 format_list_bulleted.svg  
 │   │   ├── 🔣 smartphone.svg  
-│   │   ├── 🔣 storefront.svg    
+│   │   ├── 🔣 storefront.svg  
 │   ├── 📂 logo/  
 │   │   ├── 🏷️ ohmyfood.png  
 │   │   ├── 🏷️ ohmyfood@2x.svg  
@@ -41,17 +41,18 @@ Pour l'instant, 4 menus de restaurants sont disponibles sur le site.
 │   ├── 📜 menu3.html  
 │   ├── 📜 menu4.html  
 ├── 📂 scss/  
-│   ├── 🎭 _animations.scss    // Animations et transitions  
-│   ├── 📝 _base.scss          // Styles de base (typographie, éléments généraux)  
-│   ├── 🧩 _components.scss    // Composants réutilisables (boutons, cartes...)  
-│   ├── 📐 _layout.scss        // Disposition générale (header, footer...)  
-│   ├── 📱 _media.scss         // Media queries pour le responsive  
-│   ├── 📄 _pages.scss         // Styles spécifiques aux pages (index, menus...)  
-│   ├── 🎨 _variables.scss     // Variables globales (couleurs, polices...)  
-│   ├── 🖌️ style.scss          // Fichier principal qui importe tout  
+│   ├── 🎭 _animations.scss       // Animations et transitions  
+│   ├── 📝 _base.scss             // Styles de base (typographie, éléments généraux)  
+│   ├── 🧩 _components.scss       // Composants réutilisables (boutons, cartes...)  
+│   ├── 📐 _layout.scss           // Disposition générale (header, footer...)  
+│   ├── 📱 _media.scss            // Media queries pour le responsive  
+│   ├── 📄 _pages.scss            // Styles spécifiques aux pages (index, menus...)  
+│   ├── 🎨 _variables.scss        // Variables globales (couleurs, polices...)  
+│   ├── 🖌️ style.scss             // Fichier principal qui importe tout  
 ├── 🚫 .gitignore  
 ├── 🏠 index.html  
-├── 📖 README.md  
+├── 📖 README.md
+
 
 
 N.B : Les fichiers CSS sont créés par Node.js après la compilation des fichiers SCSS.
@@ -59,7 +60,7 @@ N.B : Les fichiers CSS sont créés par Node.js après la compilation des fichie
 ### 🛠️ Dernières modifications
 - Finalisation de la partie "Restaurants"
 - Création de la partie Footer
-- Changements des icônes "format list" & "storefront" pour les icônes de Font Awsome
+- Changements des icônes "format list" & "storefront" pour les icônes de Font Awesome
 
 
 ### 🔮 À venir
