@@ -24,7 +24,7 @@ Pour l'instant, 4 menus de restaurants sont disponibles sur le site.
 ├── 📂 images/ 
 │   ├── 📂 icons/  
 │   │   ├── 🔣 arrow_back.svg  
-│   │   ├── 🔣 format_list_bulleted.svg      // Icônes prises depuis Google fonts
+│   │   ├── 🔣 format_list_bulleted.svg
 │   │   ├── 🔣 smartphone.svg  
 │   │   ├── 🔣 storefront.svg    
 │   ├── 📂 logo/  
@@ -57,13 +57,13 @@ Pour l'instant, 4 menus de restaurants sont disponibles sur le site.
 N.B : Les fichiers CSS sont créés par Node.js après la compilation des fichiers SCSS.
 
 ### 🛠️ Dernières modifications
-- Peaufinement de la partie Header
-- Création & Finalisation de la partie "Fonctionnement"
-- Création de la partie "Restaurants"
-- Ajout du fichier "Icons" (certaines icônes n'étant pas disponible sur Font Awsome)
+- Finalisation de la partie "Restaurants"
+- Création de la partie Footer
+- Changements des icônes "format list" & "storefront" pour les icônes de Font Awsome
+
 
 ### 🔮 À venir
-- Changements des icônes "format list" & "storefront" pour les icônes de Font Awsome
-- Finalisation de la partie "Restaurants"
+- Finalisation de la partie Footer
 - Animations pour le bouton "Like"
-- Création & Finalisation de la partie Footer
+- Lien des cartes vers les menus
+- Création de la page "menu1"

@@ -9,6 +9,10 @@ $dark-grey: #393939;
 $primary-light: #B380FF;
 $secondary-light: #FF9DEA;
 
+// for "nouveau"
+$light-green: #94FFD4;
+$dark-green: #137A63;
+
 .location-box {
     i {
         &p {
@@ -34,9 +38,5 @@ $secondary-light: #FF9DEA;
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
-
-.function-icon {
-   height: 45%;
-   margin-right: 4%;
+    margin-bottom: 15%;
 }
