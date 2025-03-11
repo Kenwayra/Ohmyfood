@@ -58,13 +58,14 @@ Pour l'instant, 4 menus de restaurants sont disponibles sur le site.
 N.B : Les fichiers CSS sont créés par Node.js après la compilation des fichiers SCSS.
 
 ### 🛠️ Dernières modifications
-- Finalisation de la partie "Restaurants"
-- Création de la partie Footer
-- Changements des icônes "format list" & "storefront" pour les icônes de Font Awesome
+- Finalisation de la partie Footer
+- Création du lien entre la page index.html et menu1.html en cliquant sur les cartes
+- Création & Finalisation de la page menu1.html
+- Changements de l'image cœur pour les icônes de Font Awesome
+- Création de l'animation pour le bouton "Like" (en cours)
 
 
 ### 🔮 À venir
-- Finalisation de la partie Footer
-- Animations pour le bouton "Like"
-- Lien des cartes vers les menus
-- Création de la page "menu1"
+- Animations pour le bouton "Like" et la carte de menu
+- Création des pages menu2.html, menu3.html & menu4.html
+- Media queries vers tablette & desktop

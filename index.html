@@ -9,9 +9,9 @@
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Shrikhand&display=swap" rel="stylesheet">
     </head>
     <body>
-        <header>
+        <header class="header-index">
             <div class="logo-box">
-                <button class="go-back"><img src="./images/logo/icons/arrow_back.svg" alt="Go Back"></button>
+                <a href="../index.html" class="go-back"><i class="fa-solid fa-arrow-left"></i></a>
                 <img src="./images/logo/ohmyfood@2x.svg" alt="Logo OhMyFood" class="logo">
             </div>
             <div class="location-box">
@@ -24,7 +24,7 @@
                 <button class="purple-button">Explorer nos restaurants</button>
             </div>
         </header>
-        <main class="main-container">
+        <main class="main-container-index">
             <div class="function-box">
                 <p class="box-title"><strong>Fonctionnement</strong></p>
                 <div class="function-row">
@@ -51,7 +51,7 @@
             </div>
             <div class="restaurants-box">
                 <p class="box-title"><strong>Restaurants</strong></p>
-                <div class="restaurant-card">
+                <a href="menus/menu1.html" class="restaurant-card">
                     <div class="nouveau">
                         <p>Nouveau</p>
                     </div>
@@ -66,11 +66,13 @@
                             </div>
                         </div>
                         <div class="heart-button">
-                            <button class="heart-button"><img src="./images/icons/heart_empty.svg"></button>
+                            <button class="heart-button">
+                                <i class="fa-solid fa-heart"></i>
+                            </button>
                         </div>
                     </div>
-                </div>
-                <div class="restaurant-card">
+                </a>
+                <a href="#" class="restaurant-card">
                     <div class="nouveau">
                         <p>Nouveau</p>
                     </div>
@@ -85,11 +87,12 @@
                             </div>
                         </div>
                         <div class="heart-button">
-                            <button class="heart-button"><img src="./images/icons/heart_empty.svg"></button>
+                                    <i class="fa-solid fa-heart heart-empty"></i>
+                                    <i class="fa-solid fa-heart heart-full"></i>
                         </div>
                     </div>
-                </div>
-                <div class="restaurant-card">
+                </a>
+                <a href="#" class="restaurant-card">
                     <img src="./images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="Image d'une assiette de restaurant">
                     <div class="card-content">
                         <div class="card-txt">
@@ -101,11 +104,13 @@
                             </div>
                         </div>
                         <div class="heart-button">
-                            <button class="heart-button"><img src="./images/icons/heart_empty.svg"></button>
+                            <button class="heart-button">
+                                <i class="fa-solid fa-heart"></i>
+                            </button>
                         </div>
                     </div>
-                </div>
-                <div class="restaurant-card">
+                </a>
+                <a href="#" class="restaurant-card">
                     <img src="./images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt="Image d'une assiette de restaurant">
                     <div class="card-content">
                         <div class="card-txt">
@@ -117,10 +122,12 @@
                             </div>
                         </div>
                         <div class="heart-button">
-                            <button class="heart-button"><img src="./images/icons/heart_empty.svg"></button>
+                            <button class="heart-button">
+                                <i class="fa-solid fa-heart"></i>
+                            </button>
                         </div>
                     </div>
-                </div>
+                </a>
             </div>
         </main>
         <footer class="footer-box">

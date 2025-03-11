@@ -1,10 +1,7 @@
 @import 'variables';
 
 
-//Homepage 
-.go-back {
-    display: none;
-}
+// Homepage 
 
 .location-box {
     display: flex;
@@ -23,4 +20,85 @@
     flex-direction: column;
     padding: 10%;
     background-color: $light-grey;
+}
+
+// Menus
+
+.go-back {
+    padding-top: 3%;
+}
+
+.menu-image {
+    img {
+        position: relative;
+        height: 250px;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+.main-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: $light-grey;
+    border-radius: 35px 35px 0 0;
+    margin-top: -40px;
+    z-index: 10;
+}
+
+.page-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 7%;
+    h2 {
+        margin-top: 30px;
+    }
+    .heart-button {
+        height: unset;
+    }
+}
+
+.menu-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .entrees, .plats, .desserts {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        margin: 5% 0;
+    }
+}
+
+.section-title {
+    align-self: flex-start;
+    p {
+        font-weight: 300;
+        font-size: 16px;
+        padding-bottom: 1%;
+        margin-left: 25%;
+        border-bottom: 3px solid $pastel-green;
+        width: 40px;
+    }
+}
+
+.button-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    .purple-button {
+        width: 170px;
+        margin-top: 9px;
+        margin-bottom: 25px;
+        padding: 16px 20px;
+        font-size: 14px;
+    }
 }

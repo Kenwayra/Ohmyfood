@@ -83,7 +83,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    width: 95%;
+    width: 93%;
     height: 65px;
     .card-txt {
         display: flex;
@@ -115,10 +115,33 @@
     }
 }
 
-.heart-button {
-    border: none;
-    background-color: unset;
-    img {
-        height: 25px;
+.dish-card {
+    width: 95%;
+    height: 65px;
+    background-color: white;
+    border-radius: 15px;
+    margin: 3%;
+    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+    .card-content {
+        justify-content: unset;
+        width: unset;
+        .card-txt {
+            width: 80%;
+        }
+        .dish-name p {
+            font-size: 15px;
+            margin: 2px;
+        }
+        .dish-content p {
+            font-size: 13px;
+            font-weight: 100;
+            margin: 0;
+        }
+        .dish-price p {
+            padding-top: 20px;
+            font-size: 15px;
+            font-weight: 700;
+            color: $dark-grey;
+        }
     }
 }
