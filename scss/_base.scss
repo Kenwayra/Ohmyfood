@@ -46,10 +46,14 @@ p {
     }
 }
 
+.function-content {
+    display: flex;
+    flex-direction: column;
+}
+
 .restaurants-box {
     display: flex;
     flex-direction: column;
-    align-items: center;
     background-color: $light-grey;
     padding-bottom: 15%;
 }

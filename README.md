@@ -58,9 +58,9 @@ Pour l'instant, 4 menus de restaurants sont disponibles sur le site.
 N.B : Les fichiers CSS sont créés par Node.js après la compilation des fichiers SCSS.
 
 ### 🛠️ Dernières modifications
-- Animations pour le bouton "Like" et la carte de menu
+- Création des pages menu2.html, menu3.html & menu4.html
+- Media queries vers tablette & desktop
 
 
 ### 🔮 À venir
-- Création des pages menu2.html, menu3.html & menu4.html
-- Media queries vers tablette & desktop
+- Projet fini !
