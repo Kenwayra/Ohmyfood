@@ -2,9 +2,5 @@
 .DS_Store
 Thumbs.db
 
-# Fichiers CSS générés automatiquement (on garde seulement le SCSS)
-css/style.css
-css/*.map
-
 # Dépendances Node.js (pour prendre l'habitude de l'écrire)
 node_modules/
