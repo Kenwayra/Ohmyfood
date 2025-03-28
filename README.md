@@ -58,8 +58,9 @@ Pour l'instant, 4 menus de restaurants sont disponibles sur le site.
 N.B : Les fichiers CSS sont créés par Node.js après la compilation des fichiers SCSS.
 
 ### 🛠️ Dernières modifications
-- Création des pages menu2.html, menu3.html & menu4.html
-- Media queries vers tablette & desktop
+- Création des animations manquantes (Bouton Principaux, Loader, Menus)
+- Changemant href pour "Contact" (mail:to)
+- Ajout d'un Input à "Paris, Belleville"
 
 
 ### 🔮 À venir
